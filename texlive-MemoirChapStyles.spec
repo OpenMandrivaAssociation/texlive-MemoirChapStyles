@@ -3,7 +3,7 @@ Version:	1.7b
 Release:	1
 Summary:	Chapter styles in memoir class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive//info/latex-samples/MemoirChapStyles
+URL:		http://www.ctan.org/tex-archive/info/latex-samples/MemoirChapStyles
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/MemoirChapStyles.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/MemoirChapStyles.doc.tar.xz
