@@ -1,3 +1,9 @@
+# revision 18249
+# category Package
+# catalog-ctan /info/latex-samples/MemoirChapStyles
+# catalog-date 2010-05-10 13:49:50 +0200
+# catalog-license lppl
+# catalog-version 1.7b
 Name:		texlive-MemoirChapStyles
 Version:	1.7b
 Release:	1
@@ -26,6 +32,7 @@ and Vincent Zoonekynd's tutorial on headings.
 %doc %{_texmfdistdir}/doc/latex/MemoirChapStyles/MemoirChapStyles.pdf
 %doc %{_texmfdistdir}/doc/latex/MemoirChapStyles/MemoirChapStyles.tex
 %doc %{_texmfdistdir}/doc/latex/MemoirChapStyles/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,3 +43,5 @@ and Vincent Zoonekynd's tutorial on headings.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
