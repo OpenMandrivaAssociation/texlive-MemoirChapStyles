@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/MemoirChapStyles.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A showcase of chapter styles available to users of memoir: the
@@ -32,7 +30,6 @@ and Vincent Zoonekynd's tutorial on headings.
 %doc %{_texmfdistdir}/doc/latex/MemoirChapStyles/MemoirChapStyles.pdf
 %doc %{_texmfdistdir}/doc/latex/MemoirChapStyles/MemoirChapStyles.tex
 %doc %{_texmfdistdir}/doc/latex/MemoirChapStyles/README
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -43,5 +40,3 @@ and Vincent Zoonekynd's tutorial on headings.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
