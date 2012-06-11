@@ -1,12 +1,12 @@
-# revision 18249
+# revision 25918
 # category Package
 # catalog-ctan /info/latex-samples/MemoirChapStyles
-# catalog-date 2010-05-10 13:49:50 +0200
+# catalog-date 2012-04-11 16:14:01 +0200
 # catalog-license lppl
-# catalog-version 1.7b
+# catalog-version 1.7e
 Name:		texlive-MemoirChapStyles
-Version:	1.7b
-Release:	2
+Version:	1.7e
+Release:	1
 Summary:	Chapter styles in memoir class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-samples/MemoirChapStyles
