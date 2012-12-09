@@ -40,3 +40,22 @@ and Vincent Zoonekynd's tutorial on headings.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.7e-1
++ Revision: 804438
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.7b-2
++ Revision: 753851
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.7b-1
++ Revision: 718990
+- texlive-MemoirChapStyles
+- texlive-MemoirChapStyles
+- texlive-MemoirChapStyles
+- texlive-MemoirChapStyles
+- texlive-MemoirChapStyles
+
