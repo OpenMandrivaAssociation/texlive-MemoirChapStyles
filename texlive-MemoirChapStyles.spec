@@ -6,7 +6,7 @@
 # catalog-version 1.7e
 Name:		texlive-MemoirChapStyles
 Version:	1.7e
-Release:	4
+Release:	5
 Summary:	Chapter styles in memoir class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/latex-samples/MemoirChapStyles
